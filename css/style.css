@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Spline+Sans+Mono:wght@300;400;500;700&display=swap");
+.blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.block {
+  border-radius: 10px;
+  background: #86e000;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.title {
+  font-family: 'Spline Sans Mono', monospace;
+  color: #040820;
+}
+
+.body-text {
+  font-family: 'Barlow', sans-serif;
+  color: #220530;
+}
+
+.delete-btn {
+  border: 1px dashed darkblue;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 5px 20px;
+  background: #f40000;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.delete-btn:hover {
+  background: lime;
+  color: #383838;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.delete-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=style.css.map */
